@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>6.1</ProjectVersion>
     <ToolchainName>com.HPInfoTech.CodeVisionAVR.C</ToolchainName>
-    <ProjectGuid>{4E9FA730-423D-497C-A76A-A46C3F34E8A0}</ProjectGuid>
+    <ProjectGuid>{049B4589-423D-497C-A76A-A46C3F34E8A0}</ProjectGuid>
     <avrdevice>ATtiny13</avrdevice>
     <avrdeviceseries>none</avrdeviceseries>
     <OutputType>Executable</OutputType>
@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.cof</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>c-03</AssemblyName>
-    <Name>c-03</Name>
-    <RootNamespace>c-03</RootNamespace>
+    <AssemblyName>01</AssemblyName>
+    <Name>01</Name>
+    <RootNamespace>01</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
@@ -24,19 +24,19 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>
       <CV>
-        <CVProjectPath>"c-03.prj"</CVProjectPath>
+        <CVProjectPath>"01.prj"</CVProjectPath>
       </CV>
     </ToolchainSettings>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <ToolchainSettings>
       <CV>
-        <CVProjectPath>"c-03.prj"</CVProjectPath>
+        <CVProjectPath>"01.prj"</CVProjectPath>
       </CV>
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="c-03.c">
+    <Compile Include="01.c">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>
